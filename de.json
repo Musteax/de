@@ -1,0 +1,584 @@
+{
+    "socialSignup": {
+        "header": "Registrieren",
+        "title": "Herzlich Willkommen in der noury App",
+        "subtitle": "Es warten viele leckere Snacks, Getränke und Mahlzeiten auf dich",
+        "buttonGoogle": "Fortfahren mit Google",
+        "buttonApple": "Fortfahren mit Apple",
+        "buttonEmail": "Fortfahren mit E-Mail",
+        "registerText": "Du hast bereits ein Konto?",
+        "registerButton": "Anmelden",
+        "errorMessage": "Einloggen fehlgeschlagen",
+        "errorBackendMessage": "Die Registrierung im Backend ist fehlgeschlagen",
+        "errorGoogleMessage": "Google konnte nicht registriert werden"
+    },
+    "signup": {
+        "title": "Erstelle dein Konto",
+        "subtitle": "Nach der erfolgreichen Registrierung kannst du von unserem Service profitieren.",
+        "email": "E-Mail Adresse",
+        "emailRequired": "E-Mail ist erforderlich",
+        "emailInvalid": "E-Mail ist ungültig",
+        "emailAlreadyRegistered": "E-Mail ist bereits registriert",
+        "password": "Passwort erstellen",
+        "passwordConfirmation": "Passwort bestätigen",
+        "passwordRequired": "Passwort ist erforderlich",
+        "passwordsNotTheSame": "Passwörter sind nicht identisch",
+        "passwordLength": "Passwort muss zwischen {{length}} Zeichen lang sein",
+        "button": "Registrieren",
+        "registerText": "Du hast bereits ein Konto?",
+        "registerButton": "Anmelden",
+        "apiError": "E-mail Adresse bereits vergeben",
+        "header": "Registrieren",
+        "salutation": "Anrede",
+        "salutationRequired": "Anrede ist erforderlich",
+        "firstName": "Vorname",
+        "firstNameRequired": "Vorname ist erforderlich",
+        "firstNameLength": "Vorname muss zwischen {{length}} Zeichen lang sein",
+        "lastName": "Nachname",
+        "lastNameRequired": "Nachname ist erforderlich",
+        "lastNameLength": "Nachname muss zwischen {{length}} Zeichen lang sein",
+        "phone": "Telefon",
+        "phoneRequired": "Telefon ist erforderlich",
+        "phoneAlreadyRegistered": "Telefon ist bereits registriert",
+        "austria": "Österreich",
+        "germany": "Deutschland",
+        "switzerland": "Schweiz",
+        "countryRequired": "Land ist erforderlich",
+        "country": "Land",
+        "male": "Herr",
+        "female": "Frau",
+        "other": "Keine Angabe"
+    },
+    "checkEmailOnboard": {
+        "title": "Bitte überprüfe deine Mailbox",
+        "subtitle": "Wir haben dir einen Bestätigungslink an \n<1><0>{{email}} </0></1> ,gesendet. Bitte klicke auf den Link, um dein Konto zu aktivieren.",
+        "button": "E-Mail Programm öffnen",
+        "navigateButton": "Weiter zum nächsten Schritt",
+        "resendVerification": "Email nicht erhalten?",
+        "sendAgain": "Nochmals senden",
+        "login": "Melde dich an",
+        "reVerificationSuccess": "Verification Email sent successfuly",
+        "reVerificationFail": "Error sending Verification Message"
+    },
+    "signin": {
+        "apiError": "Ungültige E-Mail Adresse oder Passwort",
+        "authTooMany": "Zu viele Anmeldeversuche",
+        "emailNotConfirmed": "Bitte bestätige deine E-Mail-Adresse",
+        "forgotPassword": "Passwort vergessen?",
+        "header": "Login",
+        "passwordLabel": "Passwort",
+        "passwordLength": "Passwort muss zwischen {{length}} Zeichen lang sein",
+        "passwordRequired": "Passwort ist erforderlich",
+        "registerButton": "Registrieren",
+        "registerText": "Noch kein Konto?",
+        "rememberMe": "Logindaten merken",
+        "signinButton": "Anmelden",
+        "title": "Melde dich an",
+        "usernameLabel": "E-Mail Adresse",
+        "usernameLength": "E-Mail Adresse muss zwischen {{length}} Zeichen lang sein",
+        "usernameRequired": "E-Mail Adresse ist erforderlich",
+        "welcomeBack": "Willkommen bei noury",
+        "or": "oder"
+    },
+    "newFeatures": {
+        "title": "Was ist alles neu",
+        "userCard": {
+            "title": "Verbesserte Zahlungsablauf",
+            "subtitles": [
+                "Einführung beliebter Zahlungsoptionen",
+                "keine 25CHF Reservation mit Twint",
+                "Schnellere und bequemere Transaktionen"
+            ]
+        },
+        "user": {
+            "title": "Neues Benutzerprofil",
+            "subtitles": ["Angabe von Essenspräferenzen für personalisierte Rabatte"]
+        },
+        "userExperience": {
+            "title": "Verbesserte Nutzererfahrung",
+            "subtitles": ["Klarere Statusanzeigen während Transaktionen", "Alle Quittungen als PDF herunterladbar"]
+        },
+        "setting": {
+            "title": "Erweiterte Funktionalitäten",
+            "subtitles": ["Registrierung und Anmeldung über Google-Sign-In", "Übersetzung in mehrere Sprachen"]
+        },
+        "button": "Weiter"
+    },
+    "personalInfo": {
+        "firstTitle": "Wie ist dein Name?",
+        "firstSubtitle": "Geniesse exklusive kulinarische Angebot und erfrischende Getränke aus deinem noury.",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "secondTitle": "Hallo",
+        "secondSubtitle": "Nach der erfolgreichen Registierung kannst du von unserem Service profitieren.",
+        "furtherDetails": "Weitere Angaben",
+        "birthDate": "Geburtstag (DD-MM-YYYY)",
+        "phone": "Telefon (optional)",
+        "gender": "Geschlecht",
+        "Female": "Weiblich",
+        "Male": "Männlich",
+        "No Information": "keine \n Angaben",
+        "nextButton": "Weiter",
+        "firstNameRequired": "Vorname ist erforderlich",
+        "lastNameRequired": "Nachname ist erforderlich",
+        "lastNameNotCorrect": "Bitte einen korrekten Nachnamen eingeben",
+        "firstNameNotCorrect": "Bitte einen korrekten Vornamen eingeben",
+        "genderRequired": "Geschlecht ist erforderlich",
+        "phoneNumberPattern": "Telefonnummer darf nur Ziffern und Leerzeichen enthalten",
+        "phoneNumberMaxLength": "Telefonnummer sollte 9 Ziffern haben",
+        "phoneNumberCountryCode": "Telefonnummer benötigt einen Ländervorwahl",
+        "birthDateInvalid": "Bitte gib ein gültiges Datum ein.",
+        "birthDateInFuture": "Kommst du aus der Zukunft?",
+        "ageLessThan10": "Bitte frage deine Eltern um Erlaubnis."
+    },
+    "eatingPreferences": {
+        "firstTitle": "Wie ernährst du dich?",
+        "firstSubtitle": "Gib uns an, wie du dich ernährst, damit du spezielle Rabatte und Aktionen auf deine Lieblingsprodukte erhältst.",
+        "nextButton": "Weiter",
+        "skip": "Überspringen",
+        "secondTitle": "Was sind deine Ernährungstypen?",
+        "secondSubtitle": "Wähle deinen bevorzugten Ernährungstypen aus und erhalte Angebote, die zu deinen Vorlieben passen!",
+        "healthProfessional": "Gesundheitsprofi",
+        "heartPerson": "Herzensmensch",
+        "muscleMan": "Muskelpaket",
+        "foodie": "Leckermaul",
+        "thirdTitle": "Hast du Allergien oder Unverträglichkeiten?",
+        "thirdSubtitle": "Teile uns deine Allergien oder Unverträglichkeiten mit, um Produkte kennenzulernen, die deinen Bedürfnissen entsprechen!",
+        "noAllergies": "Keine Allergien",
+        "nuts": "Nüsse",
+        "gluten": "Gluten",
+        "dairyProducts": "Milchprodukte",
+        "seafood": "Meeresfrüchte",
+        "lactose": "Laktose",
+        "eggs": "Eier",
+        "soy": "Soja",
+        "sesame": "Sesam",
+        "celery": "Sellerie",
+        "otherAllergies": "andere Allergien",
+        "successMessage": "Glückwunsch!"
+    },
+    "addPayment": {
+        "title": "Füge eine Zahlungsmethode hinzu",
+        "skip": "Später hinzufügen",
+        "subtitle": "Bitte füge ein Zahlungsmittel hinzu, damit du den Kühlschrank öffnen und die App optimal nutzen kannst.",
+        "button": "Zahlungsmethode hinzufügen"
+    },
+    "paymentAddedSuccess": {
+        "title": "Glückwunsch!",
+        "subtitle": "Dein Zahlungsmittel wurde erfolgreich hinzugefügt.",
+        "button": "Fortfahren"
+    },
+    "forgotPass": {
+        "header": "Passwort zurücksetzen",
+        "title": "Hast du dein Passwort vergessen?",
+        "subtitle": "Gib deine E-Mail-Adresse ein und wir senden dir eine Anweisung zum Zurücksetzen deines Passworts.",
+        "emailLabel": "E-Mail",
+        "emailRequired": "E-Mail ist erforderlich",
+        "button": "Anweisung senden"
+    },
+    "checkEmailForgetPass": {
+        "title": "Bitte überprüfe deine Mailbox",
+        "subtitle": "Wir haben dir eine Anweisung zum Zurücksetzen deines Passworts gesendet (überprüfe auch den Spam-Ordner).",
+        "button": "E-Mail-Programm öffnen"
+    },
+    "scan": {
+        "title": "QR-Code scannen",
+        "paymentSelectButton": "Wähle eine Zahlungsmethode aus",
+        "addPaymentButton": "Neue Zahlungsmethode hinzufügen",
+        "paymentTitle": "Zahlungsmethode auswählen",
+        "paymentButton": "Mehr Optionen",
+        "permissionTitle": "Zugriff auf Kamera erlauben",
+        "permissionMessage": "Bitte erlaube den Zugriff auf deine Kamera, um den Kühlschrank zu öffnen.",
+        "permissionYes": "Ja",
+        "permissionNo": "Nein",
+        "noPayment": "Keine Zahlung gefunden",
+        "noDefaultPayment": "Keine präferierte Zahlungsmethode gefunden",
+        "button": "SCAN NOW",
+        "creditCard": "Credit Card",
+        "pointsButton": "{{points}} HappyPoints"
+    },
+    "account": {
+        "header": "Profil",
+        "title": "Konto und Einstellung",
+        "transactionHistory": "Transaktionsverlauf",
+        "userProfile": "Benutzerprofil",
+        "paymentMethods": "Zahlungsmethoden",
+        "notifications": "Benachrichtigungen",
+        "support": "Support",
+        "about": "uns",
+        "nouryLive": "Noury-Live",
+        "happyPoints": "HappyPoints",
+        "logout": "Ausloggen",
+        "language": "Sprache"
+    },
+    "happyPoints": {
+        "title": "HappyPoints",
+        "descriptionPart1": "Du hast",
+        "descriptionPart2": "HappyPoints",
+        "noHappyPoints": "Du hast keine HappyPoints",
+        "add": "<1><0>HappyPoints</0></1> erhalten",
+        "subtract": "HappyPoints",
+        "orderNumber": "Bestellnummer",
+        "notes": "Anmerkung",
+        "addPoints": "HappyPoints hinzufügen"
+    },
+    "about": {
+        "title": "Über uns",
+        "privacyPolicy": "Datenschutzerklärung",
+        "refundPolicy": "Rückerstattungsbestimmungen",
+        "termsOfService": "Allgemeine Geschäftsbedingungen",
+        "about": "Noury AG\nAarwangenstrasse 57\n4900 Langenthal\ninfo@noury.ch\nUID: CHE-384.775.108"
+    },
+    "paymentMethods": {
+        "header": "Zahlungsmethode",
+        "title": "Zahlungsmethoden",
+        "addCard": "Neue Zahlungsmethode hinzufügen",
+        "expiryDate": "Verfallsdatum: {{date}}",
+        "expired": "Abgelaufen",
+        "points": "{{points}} <1><0>HappyPoints</0></1> verfügbar",
+        "addPoints": "HappyPoints hinzufügen"
+    },
+    "confirmDeleteCard": {
+        "title": "Zahlungsmethode löschen",
+        "subtitle": "Bist du sicher, dass du die Zahlungmethode {{maskedCreditCard}} löschen möchtest?",
+        "confirm": "Zahlungsmethode löschen",
+        "cancel": "Abbrechen"
+    },
+    "userProfile": {
+        "title": "Benutzerprofil",
+        "edit": "Bearbeiten",
+        "save": "Speichern",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-mail",
+        "deleteAccount": "Konto löschen",
+        "accountDetails": "Kontoinformationen",
+        "password": "Passwort",
+        "paymentMethod": "Zahlungsmethode",
+        "addPaymentButton": "Zahlungsmethode hinzufügen",
+        "dietType": "Ernährungsart",
+        "dietaryPreferences": "Ernährungstyp",
+        "allergiesIntolerances": "Allergien",
+        "successMessage": "Information updated successfully",
+        "failureMessage": "Failed to update information"
+    },
+    "transactionHistory": {
+        "title": "Zahlungsverlauf",
+        "loadMore": "Mehr laden",
+        "company": "Firma",
+        "address": "Addresse",
+        "emptyTransaction": "Schaut so aus, als hättest \ndu den noury noch nicht\nbenutzt."
+    },
+    "transactionReceipt": {
+        "title": "Zahlungsdetails",
+        "failedTitle": "Transaktion fehlgeschlagen!",
+        "order": "Bestell #",
+        "date": "Datum",
+        "company": "Standort",
+        "subtotal": "Zwischensumme",
+        "vat": "Inklusive MwSt.",
+        "total": "Zwischensumme",
+        "pdfButton": "Als PDF speichern",
+        "addCardButton": "Jetzt Zahlen",
+        "points": "Benutzte HappyPoints",
+        "paidWith": "Bezahlt mit ",
+        "outstandingAmount": "Ausstehender Betrag",
+        "orderNumber": "Bestellnummer",
+        "refundButton": "Rückerstattung anfordern"
+    },
+    "notifications": {
+        "title": "Benachrichtigungen",
+        "newsletter": "Newsletter",
+        "pushNotifications": "Push-Benachrichtigungen",
+        "emailReceipt": "Email-Quittung",
+        "newsletterDescription": "Bleibe auf dem Laufenden und sichere dir exklusive Rabatte mit unserem Noury-Newsletter!",
+        "pushNotificationsDescription": "Erhalte Benachrichtigungen direkt auf deinem mobilen Gerät!",
+        "seeAllNotifications": "Alle Push-Benachrichtigungen ansehen",
+        "emailReceiptDescription": "Erhalte deine Quittung automatisch per E-Mail und bleibe stets informiert über deinen Einkauf!",
+        "successMessage": "Erfolgreich aktualisiert!"
+    },
+    "notificationList": {
+        "title": "Benachrichtigungen",
+        "noNotifications": "Zurzeit gibt es keine Benachrichtigungen für dich. Sobald es etwas Neues gibt, erfährst du es hier als Erstes."
+    },
+    "feedback": {
+        "title": "FeedBack",
+        "subtitle": "Zögere nicht, uns bei Fragen zu kontaktieren. Wir werden unser Bestes tun, um jedes Anliegen so schnell wie möglich zu klären.",
+        "category": "Kategorie",
+        "subject": "Betreff",
+        "message": "Nachricht",
+        "submit": "Senden",
+        "or": "Oder",
+        "callButton": "Rufe uns an",
+        "info": "Standardtarife gelten für Anrufe",
+        "successTitle": "Erfolgreich",
+        "successMessage": "Dein Feedback wurde erhalten und wir werden uns bald bei dir melden. Danke!",
+        "successButton": "Alles klar",
+        "failTitle": "Etwas ist schiefgelaufen!",
+        "failMessage": "Ups, da ist uns ein Fehler unterlaufen! Tippe auf “Erneut versuchen” oder ruf uns an. Deine Nachricht ist uns wichtig!",
+        "failButtonTry": "Erneut versuchen",
+        "failButtonCall": "Rufe uns an",
+        "skip": "Überspringen"
+    },
+    "logoutModal": {
+        "title": "Ausloggen?",
+        "subtitle": "Gehst du schon?",
+        "cancel": "Zurück",
+        "logout": "Ausloggen"
+    },
+    "openedFridge": {
+        "title": "Glückwunsch!",
+        "subtitle": "Der noury ist geöffnet!",
+        "description": "Du kannst jetzt deine Produkte herausnehmen.",
+        "warningTitle": "Hinweis:",
+        "warningSubtitle": "Der Kühlschrank schließt nach 2 Minuten. Bitte holen Sie Ihre Artikel vor Ablauf der Sitzung ab"
+    },
+    "scanCodeSuccess": {
+        "title": "QR-Code erfolgreich gescannt",
+        "subtitle": "Geschafft! Mach dich bereit, kulinarische Schätze zu entdecken."
+    },
+    "closeFridge": {
+        "title": "Vielen Dank!",
+        "subtitle": "Wir freuen uns, dass du diese Produkte aus dem noury genommen hast.",
+        "total": "Gesamtbetrag",
+        "showReceipt": "Quittung anzeigen",
+        "moreProducts": "Es gibt {{count}} weitere Produkte!"
+    },
+    "failedPayment": {
+        "title": "Zahlung fehlgeschlagen!",
+        "subtitle": "Deine Zahlung am <1><0>{{date}}</0></1> Uhr war nicht erfolgreich.",
+        "description": "Bitte begleiche den ausstehenden Betrag mit einer anderen Zahlungsmethode, um den noury wieder zu öffnen.",
+        "payButton": "Jetzt Zahlen",
+        "detailsButton": "Zahlungdetails anzeigen"
+    },
+    "noItemsRemoved": {
+        "title": "Keine Produkte rausgenommen",
+        "subtitle": "Der noury ist geschlossen",
+        "button": "Zurück zum Home"
+    },
+    "SuccessfulPayment": {
+        "title": "Vielen Dank!",
+        "subtitle": "Deine Zahlung war erfolgreich. Du kannst den noury wieder öffnen.",
+        "button": "Zurück zum Home"
+    },
+    "failedTransactionModal": {
+        "title": "Transaktion fehlgeschlagen!",
+        "orderNumber": "Bestellnummer: {{orderNumber}}",
+        "transactionDate": "Deine letzte Transaktion am <1><0>{{date}}</0></1> war nicht erfolgreich.",
+        "subtitle": "Bitte begleiche den ausstehenden Betrag, um den noury wieder zu öffnen.",
+        "payButton": "Jetzt Zahlen",
+        "cancelButton": "Abbrechen"
+    },
+    "confirmPreferredCard": {
+        "title": "Zahlungsmethode festlegen",
+        "subtitle": "Bist du sicher, dass du diese Zahlungsmethode als bevorzugt festlegen möchtest?",
+        "confirm": "Zahlungsmethode festlegen",
+        "cancel": "Abbrechen"
+    },
+    "messageSent": {
+        "title": "Nachricht gesendet!",
+        "subtitle": "Deine Nachricht wurde gesendet. Wir werden uns so schnell wie möglich darum kümmern. Vielen Dank!",
+        "buttonText": "FORTFAHREN"
+    },
+    "deleteAccountModal": {
+        "title": "Konto löschen",
+        "subtitle": "Bist du sicher das du dein Konto löschen möchtest?",
+        "cancel": "Abbrechen",
+        "deleteAccount": "Konto löschen",
+        "successMessage": "Konto erfolgreich gelöscht",
+        "errorMessage": "Konto konnte nicht gelöscht werden!"
+    },
+    "language": {
+        "title": "Sprache",
+        "en": "Englisch",
+        "de": "Deutsch",
+        "fr": "French"
+    },
+    "apiClient": {
+        "toast": "Beim Anruf ist ein Problem aufgetreten",
+        "alreadySignedUp": "Du hast dich bereits registriert"
+    },
+    "happyPointsModal": {
+        "title": "Einfaches Bezahlen mit HappyPoints",
+        "firstParagraph": "<1>HappyPoints verwenden:</1> Deine Punkte haben Priorität und werden zuerst verwendet.",
+        "secondParagraph": "<1>Bei niedrigen HappyPoints:</1> Sind deine Punkte knapp, nutzen wir zuerst alle verfügbaren Punkte und gleichen den Rest automatisch mit deiner gespeicherten Zahlungsmethode aus.",
+        "thirdParagraph": "<1>Ohne verbleibende HappyPoints:</1> Wenn deine HappyPoints aufgebraucht sind, wird die Transaktion automatisch mit deiner gespeicherten Zahlungsmethode gestartet.",
+        "continueButton": "Weiterfahren"
+    },
+    "notificationPermissions": {
+        "title": "Benachrichtigungen",
+        "message": "Deine Berechtigung wird benötigt um Benachrichtigungen zu aktivieren",
+        "yes": "Ok",
+        "no": "Abbrechen",
+        "approvalFailed": "Bitte aktiviere Benachrichtigungen in deinen Einstellungen."
+    },
+    "noCabinets": {
+        "description": "Es sieht so aus, als hättest du noch keinen Noury gescannt. Lass uns beginnen!",
+        "firstPoint": "Geh zum Noury in deinem Unternehmen.",
+        "secondPoint": "Scanne den QR-Code  mit dieser App und tätige deine erste Transaktion.",
+        "thirdPoint": "Geniesse zuerst dein Produkt – lecker!",
+        "fourthPoint": "Kehr dann zurück zu Noury Live, um zu sehen, was es alles in deinem Noury gibt.",
+        "instructions": "Tippe unten, um den Noury zu öffnen und die ganze Welt von Noury Live zu entdecken."
+    },
+    "nouryLive": {
+        "titleWithCabinet": "Wähle deinen Noury",
+        "titleWithNoCabinet": "Noury Live",
+        "description": "Selektiere deinen Noury, um die aktuellen Inhalte und Angebote zu entdecken."
+    },
+    "nouryLiveProductsListing": {
+        "searchPlaceholder": "Suche deine Produkte",
+        "favorite": "Favoriten",
+        "discounted": "Rabatte %",
+        "of": "von",
+        "all": "Alle"
+    },
+    "home": {
+        "addNewPayment": {
+            "title": "Zahlungsmethode hinzufügen",
+            "text": "Bitte füge eine Zahlungsmittel hinzu, damit du den noury öffnen und die App optimal nutzen kannst."
+        },
+        "howItWorks": {
+            "title": "So funktioniert's",
+            "text": "Schau dir unser kurzes Tutorial an, um zu sehen, wie du deinen noury öffnen kannst.",
+            "button": "Tutorial"
+        },
+        "weeklyPromotion": {
+            "title": "Aktion der Woche"
+        },
+        "firstTransaction": {
+            "title": "Deine erste Transaktion",
+            "text": "Super, du hast eine Zahlungsmethode hinzugefügt! Lass uns nun beginnen den noury zu öffnen.",
+            "firstPoint": "Tippe auf das Schloss-Icon unten in der Mitte.",
+            "secondPoint": "Scanne den QR-Code.",
+            "thirdPoint": "Öffne deinen noury und nim deine Lieblingsprodukte.",
+            "fourthPoint": "Geniesse deine Produkte. - Lecker!"
+        },
+        "infoPanel": {
+            "text": "Du hast {{points}} HappyPoints"
+        },
+        "finalTransaction": {
+            "title": "Deine letzte Transaktion"
+        },
+        "nouryLiveComponent": {
+            "title": "Noury Live"
+        },
+        "HappyPointsComponents": {
+            "title": "HappyPoints hinzufügen",
+            "text": "Hast du einen HappyPoint-Code? \n Dann löse ihn jetzt ein!",
+            "button": "HappyPoints einlösen"
+        }
+    },
+    "addHappyPointsModal": {
+        "title": "HappyPoints hinzufügen",
+        "description": "Gib deinen Code für HappyPoints ein. Bitte beachte, dass der Code nur einmalig gültig ist.",
+        "button": "Hinzufügen",
+        "VOUCHER_ALREADY_REDEEMED": "Gutschein schon eingelöst. Versuch einen anderen.",
+        "INVALID_CODE_FORMAT": "Falsches Format. Bitte überprüfe deine Eingabe.",
+        "INVALID_VOUCHER_CODE": "Ungültiger Code. Versuch es erneut.",
+        "VOUCHER_EXPIRED": "Gutschein abgelaufen. Nutze einen gültigen."
+    },
+    "happyPointsAdded": {
+        "title": "Glückwunsch!",
+        "subtitle": "Deine HappyPoints wurde erfolgreich hinzugefügt.",
+        "button": "Fortfahren",
+        "happyPoints": "HappyPoints",
+        "equals": "entspricht"
+    },
+    "openFridgeWithDeepLink": {
+        "title": "Möchtest du den Kühlschrank öffnen?",
+        "goToHome": "Zum Home",
+        "toolTip": "Tippen, um den Kühlschrank zu öffnen"
+    },
+    "cameraPermission": {
+        "title": "Berechtigung erforderlich",
+        "description": "Kameraberechtigung wird benötigt, um QR-Codes zu scannen.",
+        "cancel": "Abbrechen",
+        "goToSettings": "Zu den Einstellungen"
+    },
+    "greeting": {
+        "morning": "Guten Morgen{{name}}",
+        "day": "Willkommen{{name}}",
+        "afternoon": "Willkommen{{name}}",
+        "evening": "Guten Abend{{name}}"
+    },
+    "askingForEatingPreferences": {
+        "title": "Ernährungspräferenzen angeben",
+        "subtitle": "Teile uns deine Ernährungsgewohnheiten mit, damit wir dir gezielte Aktionen, Angebote und Rabatte bieten können, die auf deine Bedürfnisse abgestimmt sind.",
+        "button": "Präferenzen angeben",
+        "skip": "Überspringen"
+    },
+    "onboardingNotification": {
+        "title": "Verpasse nichts",
+        "description": "Erhalte regelmässig Push-Benachrichtigungen, damit Du keine von unserer Angebote und Rabatte verpasst.",
+        "button": "Los Geht’s"
+    },
+    "customerSupport": {
+        "title": "Support",
+        "feedback": "Feedback",
+        "refund": "Rückerstattungsanfrage",
+        "newProductRequest": "Neue Produktanfrage",
+        "technicalIssue": "Technisches Problem",
+        "info": "Bei dringenden Anliegen kannst du uns jederzeit anrufen. Für Anrufe gelten die Standardtarife.",
+        "callUs": "Rufe uns an"
+    },
+    "refund": {
+        "title": "Rückerstattungsanfrage",
+        "description": "Stimmt etwas mit einer Transaktion nicht? Hier kannst du eine Rückerstattungsanfrage stellen.",
+        "button": "Rückerstattung Anfragen",
+        "successTitle": "Rückerstattungsanfrage gesendet",
+        "successMessage": "Deine Rückerstattungsanfrage wurde erfolgreich eingereicht. Wir werden deine Anfrage prüfen und dich in Kürze mit weiteren Informationen kontaktieren.",
+        "successButton": "Verstanden",
+        "failTitle": "Etwas ist schief gelaufen!",
+        "failMessage": "Hoppla, es gab eine kleine Panne! Tippe auf \"Erneut versuchen\" oder rufe uns an. Deine Nachricht ist uns wichtig!",
+        "failButtonTry": "Erneut versuchen",
+        "failButtonCall": "Rufe uns an",
+        "skip": "Überspringen"
+    },
+    "technicalIssues": {
+        "title": "Technisches Problem",
+        "subtitle": "Zögere nicht, uns zu kontaktieren, falls dein Noury, eine Zahlungsmethode oder eine andere Funktion nicht wie erwartet funktioniert.",
+        "subject": "Betreff",
+        "message": "Nachricht",
+        "selectFile": "Datei auswählen",
+        "openCamera": "Kamera öffnen",
+        "submit": "Senden",
+        "uploadedImages": "Hochgeladenes Bild: ",
+        "successTitle": "Erfolgreich",
+        "successMessage": "Dein technisches Problem wurde erhalten und wir werden uns bald bei dir melden. Danke!",
+        "successButton": "Alles klar",
+        "failTitle": "Etwas ist schiefgelaufen!",
+        "failMessage": "Ups, da ist uns ein Fehler unterlaufen! Tippe auf “Erneut versuchen” oder ruf uns an. Deine Nachricht ist uns wichtig!",
+        "failButtonTry": "Erneut versuchen",
+        "failButtonCall": "Rufe uns an",
+        "skip": "Überspringen"
+    },
+    "transactionRefund": {
+        "order": "Bestell #"
+    },
+    "refundReasonModal": {
+        "title": "Grund für den Refund",
+        "overCharged": "Zu viel Belastet",
+        "incorrectPrice": "Falscher Preis",
+        "expiredProduct": "Abgelaufenes Produkt",
+        "note": "Bemerkung",
+        "button": "Absenden"
+    },
+    "errorFallback": {
+        "title": "Etwas ist schiefgelaufen.",
+        "description": "Wir entschuldigen uns für die Unannehmlichkeiten.\nBitte versuche es erneut.",
+        "button": "Aktualisieren"
+    },
+    "requestNewProduct": {
+        "title": "Neuer Produktvorschlag",
+        "subtitle": "Hast du eine Idee für ein neues Lebensmittel oder Getränk, das du gerne in deinem Kühlschrank sehen würdest? Wir freuen uns darauf, deine Vorschläge zu hören!",
+        "description": "Teile uns mit, welches Produkt deiner Meinung nach zu Noury hinzugefügt werden sollte.",
+        "subject": "Dein Produktvorschlag",
+        "submit": "Senden"
+    },
+    "takePhotoPermission": {
+        "title": "Berechtigung erforderlich",
+        "description": "Kameraberechtigung wird benötigt um ein Foto zu machen",
+        "cancel": "Abbrechen",
+        "goToSettings": "Zu den Einstellungen"
+    }
+}
